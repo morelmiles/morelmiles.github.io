@@ -81,7 +81,7 @@
 .menu-branding .portrait {
     width: 250px;
     height: 250px;
-    background: url("../img/portrait.jpg");
+    background: url("../images/portrait.jpg");
     border-radius: 50%;
     border: solid 3px #eece1a;
 }
@@ -146,7 +146,7 @@ body {
 }
 
 body#bg-img {
-    background: url(../img/background.jpg);
+    background: url(../images/background.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -385,7 +385,7 @@ main#home h1 {
     }
 
     .menu-branding .portrait {
-        background: url("../img/portrait_small.jpg");
+        background: url("../images/portrait_small.jpg");
         width: 150px;
         height: 150px;
     }
