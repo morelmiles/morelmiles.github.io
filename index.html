@@ -11,11 +11,11 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="css/main.css" />
-    <title>Luigi Morel | Contact Me</title>
+    <link rel="stylesheet" href="dist/css/main.css" />
+    <title>Luigi Morel | Home</title>
   </head>
 
-  <body>
+  <body id="bg-img">
     <header>
       <div class="menu-btn">
         <div class="btn-line"></div>
@@ -28,7 +28,7 @@
           <div class="portrait"></div>
         </div>
         <ul class="menu-nav">
-          <li class="nav-item">
+          <li class="nav-item current">
             <a href="index.html" class="nav-link">
               Home
             </a>
@@ -39,9 +39,11 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="projects.html" class="nav-link"> Projects</a>
+            <a href="projects.html" class="nav-link">
+              Projects
+            </a>
           </li>
-          <li class="nav-item current">
+          <li class="nav-item">
             <a href="contact.html" class="nav-link">
               Contact Me
             </a>
@@ -50,28 +52,29 @@
       </nav>
     </header>
 
-    <main id="contact">
+    <main id="home">
       <h1 class="lg-heading">
-        Contact
-        <span class="text-secondary">Me</span>
+        Luigi
+        <span class="text-secondary">Morel</span>
       </h1>
       <h2 class="sm-heading">
-        Reach me through any of these channels
+        Web Developer, Programmer, UX Researcher & Lover of numbers...
       </h2>
-      <div class="boxes">
-        <div><span class="text-secondary">Email: </span> morelmiles[at]gmail[dot]com</div>
-        <div><span class="text-secondary">Phone: </span> +256 704 916 696</div>
+      <div class="icons">
+        <a href="twitter.com/LuigiMorel_" target="_blank">
+          <i class="fab fa-twitter fa-2x"></i>
+        </a>
+        <a href="facebook.com/morel.miles" target="_blank">
+          <i class="fab fa-facebook fa-2x"></i>
+        </a>
+        <a href="#!" target="_blank">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+        <a href="github.com/morelmiles" target="_blank">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
       </div>
     </main>
-
-    <footer id="main-footer">
-      Copyright &copy; Luigi Morel
-      <script>
-        let today = new Date();
-        let thisYear = today.getFullYear();
-        document.write(thisYear);
-      </script>
-    </footer>
 
     <script src="js/main.js"></script>
   </body>
